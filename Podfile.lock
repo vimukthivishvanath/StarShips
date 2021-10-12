@@ -1,0 +1,38 @@
+PODS:
+  - MBProgressHUD (1.2.0)
+  - Mockingjay (3.0.0-alpha.1):
+    - Mockingjay/Core (= 3.0.0-alpha.1)
+    - Mockingjay/XCTest (= 3.0.0-alpha.1)
+  - Mockingjay/Core (3.0.0-alpha.1):
+    - URITemplate (~> 3.0)
+  - Mockingjay/XCTest (3.0.0-alpha.1):
+    - Mockingjay/Core
+  - URITemplate (3.0.1)
+
+DEPENDENCIES:
+  - MBProgressHUD
+  - Mockingjay (from `https://github.com/kylef/Mockingjay.git`, branch `master`)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+    - URITemplate
+
+EXTERNAL SOURCES:
+  Mockingjay:
+    :branch: master
+    :git: https://github.com/kylef/Mockingjay.git
+
+CHECKOUT OPTIONS:
+  Mockingjay:
+    :commit: 291c52cb6a5d4dfb3094f3851333f1ddbf350ff1
+    :git: https://github.com/kylef/Mockingjay.git
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  Mockingjay: 97656c6f59879923976a0a52ef09da45756cca82
+  URITemplate: 5f5a79f3e384884102c4e6b3325d159c20a8035a
+
+PODFILE CHECKSUM: 15524f26c7cb181024cf94fc6f1e3533ecbbc8ae
+
+COCOAPODS: 1.11.2

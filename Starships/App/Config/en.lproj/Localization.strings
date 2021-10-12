@@ -1,0 +1,13 @@
+/* 
+ Localization.strings
+  Starships
+
+  Created by Vimukthi Vishvanath on 10/10/21.
+  
+*/
+"APP_NAME" = "Starship";
+"SUCCESS" = "Success";
+"ERROR" = "Error";
+"FAILURE" = "Faliure";
+"OK" = "Ok";
+"NO_INTERNET" = "Please check your Internet connection or try again later.";
