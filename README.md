@@ -16,7 +16,7 @@ Copyright © 2021 Vimukthi Vishvanath. All rights reserved.
     Easy for team development as well.
 
 - No caching mechanism used to cache images, since there's no image urls involed in the project
-
+-Author used three values to show on each cell considering the more menaingful of the each starship to the user.
 - UITableview prefetch mechanism implemented to support for pagination, to follow best practices and improved the learning curve
 Localization for future scalability and a process to structuring the app's code and for UI
     
@@ -28,14 +28,14 @@ Localization for future scalability and a process to structuring the app's code 
         For easy error handling
         If issue (not support in future release) will not make huge impact on the development lifecycle.
 
-* Unit Tests:
-    - Wrote unit tests for StarshipListVIewModel considering the given time for the test. Minimum code coverage.
+ * Unit Tests:
+     - Wrote unit tests for StarshipListVIewModel considering the given time for the test. Minimum code coverage.
 
 
-Author used three values to show on each cell considering the more menaingful of the each starship to the user.
 
 
-Considerations:
+
+# Considerations:
 
 - Used a buton to select and to identify the favourited starship on each cell
     ex: Favourited starship cell showed with red colored star and the other one showed with a empty star
@@ -49,7 +49,7 @@ Considerations:
 - Handled the errors using a custom error enum (using try ,catch ..)
 
 
-Things to improve (Author thought about):
+# Things to improve (Author thought about):
 
 - Repository pattern would be better solution to achive loose coupling and for keep domain objects persistant ignorant and abstract
     
@@ -58,4 +58,5 @@ Things to improve (Author thought about):
     
 - Reactive programming (RxSwift or Combine) would be a better soulution for the future development as to maintain a cleaner code and architecture
 
-Please check the folder and architecture explanation on the app_architecture.pdf
+# Please check the folder and architecture explanation on the app_architecture.pdf
+link : https://github.com/vimukthivishvanath/StarShips/blob/main/app_architecture.pdf
